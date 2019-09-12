@@ -1,0 +1,140 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+/*
+@media only screen and (max-width: 767px) {
+	header { background:#000000 url(images/kdz-title.jpg) top center no-repeat; background-size:cover; height:640px; }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+	header { background:#000000 url(images/kdz-title.jpg)  top center no-repeat; background-size:cover; height:640px; }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+	header { background:#000000 url(images/kdz-title.jpg)  top center no-repeat; background-size:cover; height:640px; }
+}
+
+@media only screen and (min-width: 1920px) {
+	header { background:#000000 url(images/kdz-title.jpg)  top center no-repeat; background-size:cover; height:640px; }
+}
+*/
+
+#kdz_head {
+		
+}
+
+.img-banner {
+	width: 100%;
+	top: 0px;
+	z-index: -1;
+}
+
+footer {
+	margin-left: 2.0em;
+}
+
+#langSelect {
+	position: relative;
+	margin-right: 0px;
+}
+
+header {
+	margin: 0px;
+}
+
+#appstore {
+	margin-left: 0px;
+	margin-right: auto;
+}
+
+#playstore {
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+.section {
+	margin-top: 2.0em;
+	margin-bottom: 2.0em;
+}
+
+#character_selector {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+.align_center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.span8 {
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+}
+
+
+
+.modal-backdrop.in {
+  -webkit-opacity: 0.95;
+  -moz-opacity: 0.95;
+  opacity: 0.95;
+  background-color: #333333;
+}
+.ekko-lightbox .modal-content {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+.ekko-lightbox .modal-header {
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ekko-lightbox .modal-header .close {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  color: #fff;
+  text-shadow: 0;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.ekko-lightbox .modal-header .close:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.ekko-lightbox .modal-header h4.modal-title {
+  font-weight: 100;
+  color: #fff;
+  padding: 0;
+}
+.ekko-lightbox .modal-body {
+  padding: 0;
+}
+.ekko-lightbox .modal-footer {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+  border: 0;
+  color: #fff;
+  font-weight: 100;
+  padding: 0;
+}
+.ekko-lightbox-nav-overlay a {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+  text-shadow: none;
+}
